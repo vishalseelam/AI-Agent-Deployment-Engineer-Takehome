@@ -1,6 +1,13 @@
 """
 Hippocratic AI Bedtime Story Generator
 
+Before submitting the assignment, describe here in a few sentences what you would have built next if you spent 2 more hours on this project:
+
+With 2 more hours, I would add:
+1. Response streaming - show story generation progress to reduce perceived latency
+2. Quality monitoring - log generation steps and prompt performance to better evaluate prompts and understand what works
+3. Better step-back agent design - tried autonomous planning but quality control failed. Would design better flow with more sophisticated prompts for autonomous yet consistent output
+4. Outside scope but worth mentioning - better memory management with persistent storage and cross-session preferences
 """
 
 import os
